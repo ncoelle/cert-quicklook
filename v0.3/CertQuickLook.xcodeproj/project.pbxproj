@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		0A8EDDC912C33F620037F641 /* collapse.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A8EDDC612C33F620037F641 /* collapse.png */; };
 		0A8EDDCA12C33F620037F641 /* expand.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A8EDDC712C33F620037F641 /* expand.png */; };
-		0A8EDDFA12C342C20037F641 /* jquery-1.4.4.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 0A8EDDD212C341B80037F641 /* jquery-1.4.4.min.js */; };
 		0A8EDF7112C369B60037F641 /* PubKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A8EDF6F12C369B60037F641 /* PubKey.h */; };
 		0A8EDF7212C369B60037F641 /* PubKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8EDF7012C369B60037F641 /* PubKey.m */; };
 		0A8EE1B212C385AF0037F641 /* left.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A8EE1B112C385AF0037F641 /* left.png */; };
@@ -23,6 +22,7 @@
 		8D576312048677EA00EA77CD /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 08FB77B6FE84183AC02AAC07 /* main.c */; settings = {ATTRIBUTES = (); }; };
 		8D576314048677EA00EA77CD /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA1909FFE8422F4C02AAC07 /* CoreFoundation.framework */; };
 		8D5B49A804867FD3000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D5B49A704867FD3000E48DA /* InfoPlist.strings */; };
+		AD62B8FB2B23BEA300908132 /* jquery-1.12.4.min.js in Resources */ = {isa = PBXBuildFile; fileRef = AD62B8FA2B23BEA300908132 /* jquery-1.12.4.min.js */; };
 		C86B05270671AA6E00DD9006 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C86B05260671AA6E00DD9006 /* CoreServices.framework */; };
 		F28CFBFD0A3EC0AF000ABFF5 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F28CFBFC0A3EC0AF000ABFF5 /* ApplicationServices.framework */; };
 		F28CFC030A3EC0C6000ABFF5 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F28CFC020A3EC0C6000ABFF5 /* QuickLook.framework */; };
@@ -33,7 +33,6 @@
 		08FB77B6FE84183AC02AAC07 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		0A8EDDC612C33F620037F641 /* collapse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = collapse.png; path = template/collapse.png; sourceTree = "<group>"; };
 		0A8EDDC712C33F620037F641 /* expand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = expand.png; path = template/expand.png; sourceTree = "<group>"; };
-		0A8EDDD212C341B80037F641 /* jquery-1.4.4.min.js */ = {isa = PBXFileReference; explicitFileType = sourcecode.javascript; fileEncoding = 4; name = "jquery-1.4.4.min.js"; path = "template/jquery-1.4.4.min.js"; sourceTree = "<group>"; usesTabs = 1; };
 		0A8EDF6F12C369B60037F641 /* PubKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PubKey.h; sourceTree = "<group>"; };
 		0A8EDF7012C369B60037F641 /* PubKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PubKey.m; sourceTree = "<group>"; };
 		0A8EE1B112C385AF0037F641 /* left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = left.png; path = template/left.png; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		61E3BCFA0870B4F2002186A0 /* GenerateThumbnailForURL.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = GenerateThumbnailForURL.m; sourceTree = "<group>"; };
 		8D576316048677EA00EA77CD /* CertQuickLook.qlgenerator */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CertQuickLook.qlgenerator; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D576317048677EA00EA77CD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		AD62B8FA2B23BEA300908132 /* jquery-1.12.4.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "jquery-1.12.4.min.js"; path = "template/jquery-1.12.4.min.js"; sourceTree = "<group>"; };
 		C86B05260671AA6E00DD9006 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = /System/Library/Frameworks/CoreServices.framework; sourceTree = "<absolute>"; };
 		F28CFBFC0A3EC0AF000ABFF5 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = /System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<absolute>"; };
 		F28CFC020A3EC0C6000ABFF5 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = /System/Library/Frameworks/QuickLook.framework; sourceTree = "<absolute>"; };
@@ -96,8 +96,8 @@
 		089C167CFE841241C02AAC07 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				AD62B8FA2B23BEA300908132 /* jquery-1.12.4.min.js */,
 				0A8EE1B112C385AF0037F641 /* left.png */,
-				0A8EDDD212C341B80037F641 /* jquery-1.4.4.min.js */,
 				0A8EDDC612C33F620037F641 /* collapse.png */,
 				0A8EDDC712C33F620037F641 /* expand.png */,
 				0AE53E5A1279F13B00CE5C7F /* index.html */,
@@ -169,6 +169,8 @@
 /* Begin PBXProject section */
 		089C1669FE841209C02AAC07 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = 2CA326220896AD4900168862 /* Build configuration list for PBXProject "CertQuickLook" */;
 			compatibilityVersion = "Xcode 3.1";
 			developmentRegion = English;
@@ -193,12 +195,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A8EDDFA12C342C20037F641 /* jquery-1.4.4.min.js in Resources */,
 				8D5B49A804867FD3000E48DA /* InfoPlist.strings in Resources */,
 				0AE53E5B1279F13B00CE5C7F /* index.html in Resources */,
 				0A8EDDC912C33F620037F641 /* collapse.png in Resources */,
 				0A8EDDCA12C33F620037F641 /* expand.png in Resources */,
 				0A8EE1B212C385AF0037F641 /* left.png in Resources */,
+				AD62B8FB2B23BEA300908132 /* jquery-1.12.4.min.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
